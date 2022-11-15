@@ -51,7 +51,7 @@ class WaveMoneyPaymentProviderServiceProvider extends ServiceProvider
     public function publishMigrations($filesystem)
     {
         $this->publishes([
-            __DIR__ . '/../../database/migrations/create_viber_tables.php.stub'
+            __DIR__ . '/../../database/migrations/create_wave_money_payment_provider_tables.php.stub'
             => $this->getMigrationFileName($filesystem),
         ], 'migrations');
     }

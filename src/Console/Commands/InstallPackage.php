@@ -59,7 +59,7 @@ class InstallPackage extends Command
     private function createPluginRecord()
     {
         $this->call('plugin:add', [
-            'name' => "ViberMessaging",
+            'name' => "WaveMoney",
             'composer_name' => "inensus/wave-money-payment-provider",
             'description' => "WaveMoney integration package for MicroPowerManager",
         ]);
