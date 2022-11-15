@@ -1,0 +1,27 @@
+{
+  "name": "inensus/wave-money-payment-provider",
+  "description": "Package description",
+  "type": "package",
+  "require": {},
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "author",
+      "email": "email",
+      "role": "role"
+    }
+  ],
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "Inensus\\WaveMoneyPaymentProvider\\": "src"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Inensus\\WaveMoneyPaymentProvider\\Providers\\WaveMoneyPaymentProviderServiceProvider"
+      ]
+    }
+  }
+}
