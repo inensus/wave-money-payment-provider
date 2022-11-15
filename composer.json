@@ -1,6 +1,6 @@
 {
   "name": "inensus/wave-money-payment-provider",
-  "description": "Package description",
+  "description": "WaveMoney payment provider integration for MicroPowerManager",
   "type": "package",
   "require": {},
   "license": "MIT",
